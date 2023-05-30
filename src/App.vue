@@ -13,10 +13,11 @@ export default{
 }
 </script>
 
-<template>
+<template class="appHeader">
    <AppHeader />
 </template>
 
 <style scoped>
+
 
 </style>
