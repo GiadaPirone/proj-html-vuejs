@@ -1,7 +1,10 @@
 <script>
+    import Appstatistiche from '../components/Appstatistiche.vue'
     export default{
         name: "AppHeader",
-
+        components:{
+            Appstatistiche,
+        },
         data (){
             return{
                 vociMenu:[
@@ -66,6 +69,8 @@
             </div>
         </div>
     </div>
+    <Appstatistiche />
+    
 </template>
 
 <style scoped>
