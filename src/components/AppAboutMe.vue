@@ -33,21 +33,27 @@
         </div>
 
         <div class="testo dFlex flexDirectionCl">
-            <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam molestias error tempore maiores debitis veritatis culpa fuga tenetur quo cupiditate expedita aliquam dolorem.</p>
+            <div class="paddingTop">
+                <p class="fontSize2">"Every morning you have two choices: continue to sleep with your dreams, or wake up and chase them.".</p>
+                <img class="imgOnde" src="../assets/home-movation-shape-01.png" alt="">
+                <h3>Kaixa Stark</h3>
+                <p>wingman</p>
             </div>
-            <div>
-                <img src="../assets/home-movation-shape-01.png" alt="">
-            </div>
+            
         </div>
 
     </div>
 </template>
 
 <style scoped>
-
+    .fontSize2{
+        font-size: 2rem;
+    }
     .dFlex{
         display: flex;
+    }
+    .paddingTop{
+        padding-top: 50px;
     }
 
     .flexDirectionCl{
@@ -59,7 +65,7 @@
     .container{
         margin-left: 350px;
         margin-right: 350px;
-        background-color: bisque;
+        /* background-color: bisque; */
         margin-bottom: 50px;  /* da togliere*/
     }
     .sx{
@@ -73,6 +79,9 @@
         position: relative;
        
     }
+    .imgMotivation{
+        border-radius: 5px;
+    }
 
     .imgYoutube{
         position: absolute;
@@ -83,6 +92,9 @@
 
     .testo{
         padding: 20px;
+    }
+    .imgOnde{
+        padding-top: 100px;
     }
     
 
