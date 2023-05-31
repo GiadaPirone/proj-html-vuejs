@@ -1,10 +1,11 @@
 <script>
+    import {store} from '../store.js'
     export default{
         name:"AppAboutMe",
 
         data (){
             return{
-
+                store,
             }
         }
     }
@@ -39,6 +40,7 @@
                 <h3>Kaixa Stark</h3>
                 <p>wingman</p>
             </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque enim perspiciatis dolorum.</p>
             
         </div>
 

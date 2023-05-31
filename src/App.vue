@@ -1,11 +1,14 @@
 <script >
 import AppHeader from './components/AppHeader.vue'
 import AppAboutMe from './components/AppAboutMe.vue'
+import AppOnlineCoursesCards from './components/AppOnlineCoursesCards.vue'
+
 
 export default{
     components:{
         AppHeader,
         AppAboutMe,
+        AppOnlineCoursesCards,
     },
     data (){
         return{
@@ -22,6 +25,7 @@ export default{
 
     <main>
         <AppAboutMe />
+        <AppOnlineCoursesCards />
     </main>
 </template>
 
