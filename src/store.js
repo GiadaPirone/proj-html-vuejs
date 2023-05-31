@@ -44,5 +44,24 @@ export const store = reactive({
             lezioni:"17 lessons",
             studenti:"50 Students"
         },
-    ]
+    ],
+
+    statistiche:[
+        {
+            dato: "1.926",
+            testo: "finished session",
+        },
+        {
+            dato:"100%",
+            testo: "satisfaction rate",
+        },
+        {
+            dato:"3092+",
+            testo: "enrolled learners",
+        },
+        {
+            dato:"200",
+            testo: "online instructors",
+        },
+    ],
 })

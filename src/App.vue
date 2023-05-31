@@ -5,12 +5,14 @@ import AppOnlineCoursesCards from './components/AppOnlineCoursesCards.vue'
 import AppBoockStore from './components/AppBoockStore.vue'
 
 
+
 export default{
     components:{
         AppHeader,
         AppAboutMe,
         AppOnlineCoursesCards,
         AppBoockStore,
+        
     },
     data (){
         return{
