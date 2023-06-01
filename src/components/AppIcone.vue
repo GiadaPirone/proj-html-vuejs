@@ -1,19 +1,52 @@
 <script>
     export default{
         name:"AppIcone",
+        props:{
+            icone: Array,
+        },
 
         data(){
-            return[
+            return{
 
-            ]
+            }
+        },
+        methods:{
+            getIcona(imgIcona){
+                return new URL (imgIcona, import.meta.url).href
+            }
         }
     }
 </script>
 
 <template>
-    <div>ciao</div>
+    <div class="container dFlex justyBetween alignCenter">
+        <div v-for="icona in icone">
+            <img :src="getIcona(icona)" alt="">
+        </div>
+    </div>
 
 
 </template>
 
-<style scoped></style>
+<style scoped>
+    .dFlex{
+        display: flex;
+    }
+
+    .justyBetween{
+        justify-content: space-between;
+    }
+
+    .alignCenter{
+        align-items: center;
+    }
+    .container{
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+
+    img {
+        opacity: 0.4;
+        filter: alpha(opacity=40); /* For IE8 and earlier */
+    }
+</style>

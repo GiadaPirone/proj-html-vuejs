@@ -34,13 +34,16 @@
         </div>
 
         <div class="testo dFlex flexDirectionCl">
-            <div class="paddingTop">
+            <div>
                 <p class="fontSize2">"Every morning you have two choices: continue to sleep with your dreams, or wake up and chase them.".</p>
                 <img class="imgOnde" src="../assets/home-movation-shape-01.png" alt="">
                 <h3>Kaixa Stark</h3>
                 <p>wingman</p>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque enim perspiciatis dolorum.</p>
+                </div>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque enim perspiciatis dolorum.</p>
+            
             
         </div>
 
@@ -56,6 +59,9 @@
     }
     .paddingTop{
         padding-top: 50px;
+    }
+    .paddingBottom{
+        padding-bottom: 20px;
     }
 
     .flexDirectionCl{
@@ -96,7 +102,7 @@
         padding: 20px;
     }
     .imgOnde{
-        padding-top: 100px;
+        padding-top: 30px;
     }
     
 

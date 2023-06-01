@@ -21,7 +21,7 @@
 
 <template>
     <!-- titolo sezione. -->
-    <div class="dFlex flexDirectionCl">
+    <div class="dFlex flexDirectionCl alignCenter">
         <p>begin your journey at maxcoach</p>
         <h2>Latest Online Courses</h2>
     </div>
@@ -29,7 +29,7 @@
     <AppCard />
     
     <!-- bottone. -->
-    <div class="dFlex">
+    <div class="dFlex justyCenter">
         <button> <a href="">View All courses</a> </button>
     </div>
     
@@ -42,6 +42,14 @@
     }
     .flexDirectionCl{
         flex-direction: column;
+    }
+
+    .justyCenter{
+        justify-content: center;
+    }
+
+    .alignCenter{
+        align-items: center;
     }
 
     h2{

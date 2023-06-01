@@ -27,7 +27,7 @@
                 <li class="lineHeight"><i class="fa-solid fa-check paddingDx"></i>{{ dato }}</li>
             </ul>
 
-            <div class="dFlex">
+            <div class="dFlex paddingTop">
                 <button>Get Started For Free</button>
             </div>
         </div>

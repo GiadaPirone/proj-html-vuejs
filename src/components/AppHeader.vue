@@ -25,7 +25,7 @@
 
         <!-- contenitore barra menu. -->
         <div class="conteinerHeader">
-            <div class="navbar dFlex">
+            <div class="navbar dFlex justyBetween">
                 <!-- logo. -->
                 <div >
                     <img class="logo" src="../assets/dark-logo.png" alt="">
@@ -82,6 +82,10 @@
     align-items: center;
 }
 
+.justyBetween{
+    justify-content: space-between ;
+}
+
 .paddingTop5{
     padding-top: 10px;
 }
@@ -97,6 +101,8 @@
 .conteinerHeader{
     padding-top: 20px;
     max-width: 80%;
+    margin-left: 350px;
+    margin-right: 350px;
     /* background-color: #F5F7FA; */
 }
 .logo {
