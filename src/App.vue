@@ -4,6 +4,8 @@ import AppAboutMe from './components/AppAboutMe.vue'
 import AppOnlineCoursesCards from './components/AppOnlineCoursesCards.vue'
 import AppBoockStore from './components/AppBoockStore.vue'
 import AppIcone from './components/AppIcone.vue'
+import AppRecensioni from './components/AppRecensioni.vue'
+import AppBlog from './components/AppBlog.vue'
 
 
 
@@ -14,6 +16,8 @@ export default{
         AppOnlineCoursesCards,
         AppBoockStore,
         AppIcone,
+        AppRecensioni,
+        AppBlog,
         
     },
     data (){
@@ -25,7 +29,7 @@ export default{
                 "../assets/client-logo-04-primary.png",
                 "../assets/client-logo-03-primary.png",
                 "../assets/client-logo-02-primary.png",
-            ]
+            ],
 
         }
     }
@@ -42,7 +46,8 @@ export default{
         <AppOnlineCoursesCards />
         <AppBoockStore />
         <AppIcone :icone="icone" />
-        <!-- <img src="../src/assets/motivation-course-05-480x298.jpg" alt=""> -->
+        <AppRecensioni />
+        <AppBlog />
     </main>
 </template>
 

@@ -64,4 +64,33 @@ export const store = reactive({
             testo: "online instructors",
         },
     ],
+
+    articoli:[
+        {
+            img:"../assets/motivation-blog-04-480x325.jpg",
+            data:"May 13,2020",
+            titolo:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            anteprima: "Ipsum dolor sit amet consectetur ",
+        },
+        {
+            img:"../assets/motivation-blog-03-480x325.jpg",
+            data:"May 13,2020",
+            titolo:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            anteprima: "Ipsum dolor sit amet consectetur adipisicing. ",
+        },
+        {
+            img:"../assets/motivation-blog-02-480x325.jpg",
+            data:"May 13,2020",
+            titolo:"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            anteprima: "Nostrum ducimus amet ",
+        },
+        {
+            img:"../assets/motivation-blog-01-480x325.jpg",
+            data:"May 13,2020",
+            titolo:"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            anteprima: "Nostrum ducimus amet consectetur.",
+        },
+    ]
+
+    
 })
