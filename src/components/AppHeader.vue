@@ -42,7 +42,6 @@
                     <span><i class="fa-brands fa-facebook-f"></i></span>
                     <span><i class="fa-brands fa-instagram"></i></span>
                     <span><i class="fa-brands fa-linkedin-in"></i></span>
-    
                 </div>
             </div>    
         </div>

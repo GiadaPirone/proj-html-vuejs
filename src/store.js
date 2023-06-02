@@ -90,6 +90,13 @@ export const store = reactive({
             titolo:"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             anteprima: "Nostrum ducimus amet consectetur.",
         },
+    ],
+
+    icone:[
+        "fa-brands fa-twitter",
+        "fa-brands fa-facebook-f",
+        "fa-brands fa-instagram",
+        "fa-brands fa-linkedin-in"
     ]
 
     

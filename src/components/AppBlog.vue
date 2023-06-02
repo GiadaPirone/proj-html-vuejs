@@ -45,12 +45,19 @@
             
         </div>
 
+        <div class="dFlex justyCenter">
+            <a class="colorAzz" href="#">view all posts</a>
+        </div>
+
     </div>
 </template>
 
 <style scoped>
     .dFlex{
         display: flex;
+    }
+    .justyCenter{
+        justify-content: center;
     }
     .justyBetween{
         justify-content: space-between;
@@ -61,6 +68,9 @@
     }
     .color{
         color: rgba(0, 0, 0, 0.5);
+    }
+    .colorAzz{
+        color: #20ad96;;
     }
 
 
@@ -86,6 +96,12 @@
     i{
         padding-right: 5px;
     }
+
+    a{
+        font-size: large;
+        padding-top: 20px;
+    }
+    
 
 
 </style>

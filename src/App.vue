@@ -6,6 +6,7 @@ import AppBoockStore from './components/AppBoockStore.vue'
 import AppIcone from './components/AppIcone.vue'
 import AppRecensioni from './components/AppRecensioni.vue'
 import AppBlog from './components/AppBlog.vue'
+import AppFooter from './components/AppFooter.vue'
 
 
 
@@ -18,6 +19,7 @@ export default{
         AppIcone,
         AppRecensioni,
         AppBlog,
+        AppFooter,
         
     },
     data (){
@@ -49,9 +51,15 @@ export default{
         <AppRecensioni />
         <AppBlog />
     </main>
+
+    <footer class="bg">
+        <AppFooter />
+    </footer>
 </template>
 
 <style scoped>
-
+    .bg{
+    background-color:#171621 ;
+    }
 
 </style>
