@@ -1,0 +1,93 @@
+@use 'variables.scss' as *;
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 auto;
+}
+
+
+/* helpers */
+.colorPrimary{  color: $primaryColor;}
+.colorBlackRGBA{ color: $colorBlackRGBA;}
+.colorWhireRGBA{ color: $colorWhiteRGBA;}
+.colorWhite{ color: white;}
+
+
+.dFlex{ display: flex;}
+.flexDirectionCol{ flex-direction: column;}
+.flexWrap{ flex-wrap: wrap;}
+.justyCenter{ justify-content: center;}
+.justyBetween{ justify-content: space-between;}
+.justyAround{ justify-content: space-around;}
+.alignCenter{ align-items: center;}
+.alignBeseline{ align-items: baseline;}
+
+.fontSize1-2{ font-size: 1.2rem;}
+.fontSize1-5{ font-size: 1.5rem;}
+.fontSize1-7{ font-size: 1.7rem;}
+.fontSize2{ font-size: 2rem;}
+.fontSizeL{ font-size: large;}
+.fontSizeXl{ font-size: x-large;}
+
+.textCenter{ text-align: center;}
+.lineHeight30{ line-height: 30px;}
+.lineHeight2-5{ line-height: 2.5rem;}
+
+.padding50{ padding: 20px;}
+
+.paddingTop5{ padding-top: 5px;}
+.paddingBottom5{padding-bottom: 5px;}
+.paddingLeft5{ padding-left: 5px;}
+.paddingRight5{ padding-right: 5px}
+
+.paddingTop10{ padding-top: 10px;}
+.paddingBottom10{padding-bottom: 10px;}
+.paddingLeft10{ padding-left: 10px;}
+.paddingRight10{ padding-right: 10px;}
+
+.paddingTop20{ padding-top: 20px;}
+.paddingBottom20{ padding-bottom: 20px;}
+.paddingLeft20{ padding-left: 20px;}
+.paddingRight20{ padding-right: 20px;}
+
+.paddingTop50{ padding-top: 50px;}
+.paddingBottom50{ padding-bottom: 50px;}
+.paddingLeft50{ padding-left: 50px;}
+.paddingRight50{ padding-right: 50px;}
+
+.marginTop50{ margin-top: 50px;}
+.marginBottom50{ margin-bottom: 50px;}
+.marginRight50{ margin-right: 50px;}
+.marginLeft50 { margin-left: 50px;}
+
+.marginRight1200{ margin-right: 200px;}
+
+.borserRadius5{ border-radius: 5px;}
+.borderRadius50{ border-radius: 50%;}
+
+.width100{ width: 100%;}
+.width50{ width: calc(100% / 2);}
+.maxWidth60{ max-width: 60%;}
+.width70{ width: 70%;}
+.width900{ width: 900px;}
+
+.positionAbsolut{ position: absolute;}
+.positionRelative{ position: relative;}
+
+
+
+
+.container{
+   width: 80%;
+   margin: 0 auto;
+}
+
+.botton{
+    height: 40px;
+    border-radius: 5px ;
+    background-color: #20ad96;
+    color: #fff;
+}
+
+
+

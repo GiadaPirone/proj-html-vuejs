@@ -20,23 +20,23 @@
 </script>
 
 <template>
-    <div class="container">
+    <div class="container paddingTop50 paddingBottom50">
         <!-- titolo. -->
-        <div>
+        <div class="paddingBottom50">
             <p>blog updated</p>
-            <h2>Interesting <span>articles updated</span> daily</h2>
+            <h2 class="fontSize2 paddingTop10">Interesting <span class="colorPrimary">articles updated</span> daily</h2>
         </div>
 
         <div class="dFlex justyBetween">
             <div v-for="articolo in store.articoli" >
                 <img :src="getImgPath(articolo.img)" alt="">
 
-                <div class="dFlex alignBaseline color">
+                <div class="dFlex alignBaseline colorBlackRGBA">
                     <i class="fa-regular fa-calendar"></i><p>{{ articolo.data }}</p>
                 </div>
 
-                <div>
-                    <p>{{ articolo.titolo }}</p>
+                <div class="paddingBottom20 width70">
+                    <p class="fontSize1-5"><strong>{{ articolo.titolo }}</strong></p>
                 </div>
                 <div class="color">
                     <p>{{ articolo.anteprima }}</p>
@@ -46,62 +46,13 @@
         </div>
 
         <div class="dFlex justyCenter">
-            <a class="colorAzz" href="#">view all posts</a>
+            <a class="colorPrimary fontSizeXl paddingTop20" href="#">view all posts</a>
         </div>
 
     </div>
 </template>
 
 <style scoped>
-    .dFlex{
-        display: flex;
-    }
-    .justyCenter{
-        justify-content: center;
-    }
-    .justyBetween{
-        justify-content: space-between;
-    }
-
-    .alignBaseline{
-        align-items: baseline;
-    }
-    .color{
-        color: rgba(0, 0, 0, 0.5);
-    }
-    .colorAzz{
-        color: #20ad96;;
-    }
-
-
-
-
-    .container{
-        margin-left: 350px;
-        margin-right: 350px;
-
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    img{
-        width: 250px;
-    }
-
-    span{
-        color: #20ad96;;
-    }
-    h2{
-        font-size: 2rem;
-    }
-    i{
-        padding-right: 5px;
-    }
-
-    a{
-        font-size: large;
-        padding-top: 20px;
-    }
-    
-
-
+    img{ width: 250px;}
+    i{ padding-right: 5px;}
 </style>

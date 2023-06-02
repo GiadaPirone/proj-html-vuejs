@@ -21,50 +21,20 @@
 
 <template>
     <!-- titolo sezione. -->
-    <div class="dFlex flexDirectionCl alignCenter">
+    <div class="container dFlex flexDirectionCol alignCenter">
         <p>begin your journey at maxcoach</p>
-        <h2>Latest Online Courses</h2>
+        <h2 class="fontSize2 paddingTop10 paddingBottom50">Latest Online Courses</h2>
     </div>
 
     <AppCard />
     
     <!-- bottone. -->
     <div class="dFlex justyCenter">
-        <button> <a href="">View All courses</a> </button>
+        <button class="botton marginTop50 marginBottom50"> <a href="">View All courses</a> </button>
     </div>
     
 </template>
 
 <style scoped>
-
-    .dFlex{
-        display: flex;
-    }
-    .flexDirectionCl{
-        flex-direction: column;
-    }
-
-    .justyCenter{
-        justify-content: center;
-    }
-
-    .alignCenter{
-        align-items: center;
-    }
-
-    h2{
-        font-size: 2rem;
-        padding-top: 10px;
-        padding-bottom: 50px;
-    }
-
-    button {
-    height: 40px;
-    border-radius: 5px ;
-    background-color: #20ad96;
-    color: #fff;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
     
 </style>

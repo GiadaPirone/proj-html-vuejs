@@ -97,6 +97,53 @@ export const store = reactive({
         "fa-brands fa-facebook-f",
         "fa-brands fa-instagram",
         "fa-brands fa-linkedin-in"
+    ],
+
+    explore:[
+        "Start here",
+        "Blog",
+        "About us",
+        "Succes story",
+        "Courses",
+        "Contact us",
+
+    ],
+
+    informazioni: [
+        "Membership",
+        "Purchase guide",
+        "Privacy policy",
+        "Terms of service",
+    ],
+
+    recensioni:[
+        {
+            storia: "I am free to learn at my own pace, follow my own schedule and choos the subject i want to learn from the syllabus. Great study portal for people like me.",
+            img: "../assets/testimonial-avata-02.jpg",
+            name:"Mina Hollace",
+            professione: "/Freelancer"
+        },
+        {
+            storia:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore nesciunt quasi, sint in eaque non laboriosam molestiae eos est, excepturi illo cupiditate rerum deserunt. Corporis, quaerat.",
+            img:"../assets/testimonial-avata-03.jpg",
+            name:"Harry ",
+            professione:"/Project Manager",
+
+        },
+        {
+            storia:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore nesciunt quasi, sint in eaque non laboriosam molestiae eos est, excepturi illo cupiditate rerum deserunt. Corporis, quaerat.",
+            img:"../assets/testimonial-avata-01.jpg",
+            name:"Jacob",
+            professione:"/Data Scientist",
+
+        },
+        {
+            storia:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore nesciunt quasi, sint in eaque non laboriosam molestiae eos est, excepturi illo cupiditate rerum deserunt. ",
+            img:"../assets/testimonial-avata-04.jpg",
+            name:"	Oliver",
+            professione:"/SEO Specialist",
+
+        },
     ]
 
     
