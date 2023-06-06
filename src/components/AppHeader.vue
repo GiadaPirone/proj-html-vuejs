@@ -7,14 +7,46 @@
         },
         data (){
             return{
+                
                 vociMenu:[
-                    "Home",
-                    "Pages",
-                    "Courses",
-                    "Features",
-                    "Blog",
-                    "Shop",
+                    {
+                        voce: "home", 
+                        show: false,
+                    },
+                    {
+                        voce: "pages",
+                        show:false,
+                    },
+                    {
+                        voce: "courses",
+                        show:false,
+                    },
+                    {
+                        voce: "Features",
+                        show:false,
+                    },
+                    {
+                        voce: "Blog",
+                        show:false,
+                    },
+                    {
+                        voce: "Shop",
+                        show:false,
+                    },
                 ],
+
+                opzioniMenu: [
+                    "Start Here",
+                    "Succes Story",
+                    "About Me",
+                    "contact me"
+                ],
+                show: false,
+            }
+        },
+        methods:{
+            toggleUl(){
+                this.show = !this.show;
             }
         }
     }
@@ -31,10 +63,13 @@
                     <img class="logo" src="../assets/dark-logo.png" alt="">
                 </div>
                 <!-- menu. -->
-                <div class="menu dFlex alignCenter">
-                    <template  v-for="voce in vociMenu">
-                        <p class="fontSize1-2">{{ voce }} <span><i class="fa-solid fa-caret-up"></i></span> </p>
-                    </template>
+                <div  class="menu dFlex alignCenter">
+                    <div class="voceMenu "  v-for="e in vociMenu">
+                        <p @click="e.show = !e.show" class="fontSize1-2">{{ e.voce }} <span><i class="fa-solid fa-chevron-down"></i></span> </p>
+                        <ul v-if="e.show">
+                            <li v-for="opzione in opzioniMenu">{{ opzione }}</li>
+                        </ul>
+                    </div>
                 </div>
                 <!-- icone. -->
                 <div class="icone dFlex alignCenter">
@@ -72,7 +107,7 @@
     
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 
 .sfondo{
@@ -92,5 +127,22 @@ span{ padding: 0px 5px 0px 5px;}
 img{
     width: 80%;
 }
+
+.voceMenu{
+    position: relative;
+
+    &:hover{
+        box-shadow: 0 0 3px 0 lightgray;
+        cursor: pointer;
+    }
+    ul{
+        position: absolute;
+        list-style: none;
+        padding: 0;
+        padding-top: 10px;
+        background-color: white;
+    }
+}
+
 
 </style>

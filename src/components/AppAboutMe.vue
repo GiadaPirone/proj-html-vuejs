@@ -28,7 +28,7 @@
 
     <!-- img con testo affiancato. -->
     <div class="container paddingBottom50 dFlex">
-        <div class="immagine">
+        <div class="imgWrapper">
             <img class="borserRadius5" src="../assets/home-movation-video-poster-670x450.jpg" alt="">
             <img class="imgYoutube" src="../assets/icon-youtube-play.png" alt="">
         </div>
@@ -50,20 +50,20 @@
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
     
     .sx{
         width: calc(100% / 2 );
     }
 
-    .immagine{
+    .imgWrapper{
         width: calc(100% / 1);
         position: relative;
-    }
-    .imgYoutube{
-        position: absolute;
-        bottom: 205px;
-        left: 280px;
+        .imgYoutube{
+            position: absolute;
+            bottom: 205px;
+            left: 280px;
+        }
     }
 
 </style>
